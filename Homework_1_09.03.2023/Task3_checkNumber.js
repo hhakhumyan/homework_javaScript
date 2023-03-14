@@ -10,8 +10,6 @@
     24     "24 is a multiple of 3."
   */
 
-// Option_1_1 
-
 function checkNumber(number){
   let result = `${number} is not a multiple of 3, 5 or 7.`
   if(number % 3 === 0 && number % 5 === 0 && number % 7 === 0) {
