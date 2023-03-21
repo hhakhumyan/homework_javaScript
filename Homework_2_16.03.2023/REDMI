@@ -1,1 +1,80 @@
+/*
+-------------------------------------------------------------------------------------------------
+    Task1
+    Insert a number. Print ‘yes’ if the number is prime, ‘no’ otherwise.
+
+    Input      Output
+    401       "Yes"
+    63        "No"
+-------------------------------------------------------------------------------------------------
+    Task2
+    Write a program that reads two strings for playing the game of Rock-Paper-Scissors. If 
+    the strings entered by the user are not  'Paper', 'Rock' or 'Scissors', the program keeps 
+    on prompting the user to enter new values. If valid strings are inserted, repeat the loop, 
+    until one of the sides wins. (You can use alert instead of console.log).
+
+        Input                    Output
+    "Paper", "Pen"            "Invalid input, enter correct value."
+    "Paper", "Paper"          "Draw! Enter new values."
+    "Paper", "Scissors"       "2nd player wins!"
+-------------------------------------------------------------------------------------------------
+    Task3
+    Given a number n ( n >= 0 ). Print nth Fibonacci number.  (Fibonacci series: 0, 1, 1, 2, 
+    3, 5, 8 ..., ak = ak-1 + ak-2)
+
+    Input      Output
+    0           0
+    2           1
+    10          55
+    20          6765
+-------------------------------------------------------------------------------------------------
+    Task4
+    Given a number n ( n > 0 ). Print Fibonacci series up to n.
+
+    Input      Output
+    7       "0, 1, 1, 2, 3, 5"
+    45      "0, 1, 1, 2, 3, 5, 8, 13, 21, 34"
+-------------------------------------------------------------------------------------------------
+    Task5
+    Write a program which will give you all of the potential combinations of a two-digit 
+    decimal combination, printed in a comma delimited format
+    ‘00’, ‘01’, ‘02’, ..., ‘98’, ‘99’.
+-------------------------------------------------------------------------------------------------
+    Task6
+    Insert a number. Calculate product and sum of the digits of the number. If product is 
+    divisible by the sum, print the quotient, otherwise print the remainder.
+
+    Input        Output
+    1233    "Quotient is 2."
+    5       "Quotient is 1."
+    5       "Quotient is 1."
+    0       "Cannot calculate."
+    455     "Remainder is 2."
+-------------------------------------------------------------------------------------------------
+    Task7
+    Create a function that takes a number as an argument and returns a string formatted to separate thousands.
+
+    Input      Output
+    1000       "1,000"
+    100000     "100,000"
+    20         "20"
+-------------------------------------------------------------------------------------------------
+    Task8
+    Given a number. Print all prime factors of the number.
+
+    Input      Output
+    420       "2, 3, 5, 7"
+    99        "3, 11"
+-------------------------------------------------------------------------------------------------
+
+    Task9
+    Enter a positive number. Calculate and print its factorial. ( n! = n * (n-1) * (n-2) * ... * 3 * 
+    2 * 1 , 0! = 1 )
+
+    Input      Output
+    5        "5! = 120"
+    1        "1! = 1"
+    7        "7! = 5040"
+-------------------------------------------------------------------------------------------------
+ */
 
