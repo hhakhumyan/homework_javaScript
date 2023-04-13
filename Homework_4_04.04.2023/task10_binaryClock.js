@@ -10,12 +10,12 @@ Use "1" for on, and "0" for off. Leave a blank space for any part of the row tha
 */
 
 function binaryClock(time){
-    let hourFirstNumber = +time[0]
-    let hourSecondNumber = +time[1]
-    let minuteFirstNumber = +time[3]
-    let minuteSecondNumber = +time[4]
-    let secondFirstNumber = +time[6]
-    let secondSecondNumber = +time[7]
+    let hourFirstNumber = time[0]
+    let hourSecondNumber = time[1]
+    let minuteFirstNumber = time[3]
+    let minuteSecondNumber = time[4]
+    let secondFirstNumber = time[6]
+    let secondSecondNumber = time[7]
 
     let matArr = [
         [ [8],   ['*'], [   ],   ['*'], [   ],   ['*'], [   ] ],
